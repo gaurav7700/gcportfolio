@@ -100,7 +100,7 @@ const PortfolioLight = () => {
             <button className="close-modal" onClick={toggleModalTwo}>
               <img src="/img/cancel.svg" alt="close icon" />
             </button>
-            {/* End close icon */}
+        
 
             <div className="box_inner portfolio">
               <ModalTwoContent />
