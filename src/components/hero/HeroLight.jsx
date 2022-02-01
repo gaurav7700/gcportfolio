@@ -4,7 +4,7 @@ import Index from "../about/index";
 import dp from "./dp.jpg" 
 const heroContent = {
   heroImage: dp,
-  heroMobileImage: "img-mobile",
+  heroMobileImage: dp,
   heroTitleName: "Gaurav Chauhan",
   heroDesignation: "Web Developer",
   heroDescriptions: `
@@ -37,7 +37,7 @@ const HeroLight = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={dp}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
