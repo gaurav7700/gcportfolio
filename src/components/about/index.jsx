@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-
+import dp from "./dp.jpg"
 const index = () => {
   return (
     <section className="main-content ">
@@ -23,7 +23,7 @@ const index = () => {
 
               <div className="col-12 d-block d-sm-none">
                 <img
-                  src="img/hero/img-mobile.jpg"
+                  src={dp}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
